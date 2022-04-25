@@ -1,0 +1,17 @@
+﻿global using TaskTwo;
+global using TaskTwo.ControllerModels;
+global using TaskTwo.Models;
+global using TaskTwo.Data;
+global using TaskTwo.Auth;
+global using TaskTwo.Repositories;
+global using System.ComponentModel.DataAnnotations;
+global using AutoMapper;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.IdentityModel.Tokens;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Security.Cryptography;
+global using System.Text;
+global using Microsoft.OpenApi.Models;
+global using Swashbuckle.AspNetCore.Filters;
